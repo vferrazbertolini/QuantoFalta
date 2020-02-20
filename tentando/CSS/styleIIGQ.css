@@ -1,0 +1,73 @@
+h1{
+    text-align: center;
+    color: rgb(247, 247, 94);    
+    margin-top: 40px;
+    position: static;
+}
+body{
+    background: rgb(95, 16, 16);    
+    }
+.img1{
+    margin-left: 450px;    
+    background-size: 100% 100%;
+    object-position: center;
+}
+#nota1{
+    margin-top: 40px;
+    margin-left: 560px;
+    
+}
+#nota2{
+    margin-top: 40px;
+    margin-left: 560px;
+    
+}
+p{
+    margin-top: 40px;
+    color:rgb(247, 247, 94);
+    text-align: center;
+    position: static;
+}
+.btn1{
+    font-family: fantasy 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 490px;
+    margin-top: 40px; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 25%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.btn-1{/*configuração de cores*/
+    background: whitesmoke;
+    color: black;
+    box-shadow: 0 5px 0 rgb(173, 151, 151);
+}
+.btn-1:hover{/*sensação de clique ao aproximar*/
+    background: rgb(173, 151, 151);
+    color: black;
+    box-shadow: 0 5px 0 rgb(173, 151, 151);
+}
+.btn-1:active{/*vai abaixar ao clicar*/
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+#res{
+    text-align: center;
+    color: rgb(247, 247, 94);    
+    margin-top: 40px;
+    position: static;
+}
+h2{
+    text-align: center;
+    color: rgb(247, 247, 94);    
+    margin-top: 40px;
+    position: static;
+}

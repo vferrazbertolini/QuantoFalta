@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet"  href="/CSS/styleIGQ.css" media="screen" /><!--Comando de chamada do arquivo CSS-->
+
+    <title>Quanto devo tirar no II GQ?</title>
+</head>
+<body>
+    <script src="/JS/contasIGQ.js"></script><!--Comando de chamada do arquivo JS-->
+    
+    <!--IMAGEM-->
+    <div class ="img1" >
+    
+        <img src="/CSS/img/unicap.png" >
+     
+    </div>
+
+    <h1>Quanto tirei no I GQ:</h1>
+
+    <!--VALOR ATRIBUIDO PELO USUÁRIO-->
+    <div id="nota1"> 
+
+        <input type="text" size="10" onkeypress='return SomenteNumero(event)' id="valor1GQ" max="10"  >
+        
+    </div>
+
+    <!--BOTÃO DE CALCULO DA NOTA-->
+    <div id="btn1">
+        <button class="btn1 btn-1" onclick= "calcular()">Calcular</button>
+    </div>
+    
+    <p>Sua Nota Mínima para o II GQ é De:  </p>
+
+    <!--RESULTADO FINAL DA SUBTRAÇÃO-->
+    <div id="res">
+
+    </div>
+    
+</body>
